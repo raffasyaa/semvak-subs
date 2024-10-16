@@ -4,7 +4,7 @@ First you need to copy [html file](https://github.com/MuhammadAshouri/marzban-te
 mkdir /opt/marzban/home
 cd /opt/marzban/home
 apt install wget
-wget https://cdn.jsdelivr.net/gh/raffasyaa/semvak-subs@main/mock-login/index.html
+wget https://cdn.jsdelivr.net/gh/lunoxxdev/marhabantemplet@main/mock-login/index.html
 ```
 
 Then you have to map it to your docker container. Add this line to volume section of `docker-compose.yml`:
